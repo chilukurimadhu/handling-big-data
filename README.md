@@ -1,7 +1,7 @@
-Project Notes: Loading 0.5TB Data into PostgreSQL
+Project Notes: Loading 1TB Data into PostgreSQL
 
 Client Requirements :
-Data Volume: 0.5TB, chunked into 1GB files.
+Data Volume: 1TB, chunked into 1GB files.
 
 Cloud Restrictions: No use of public cloud platforms (Azure, AWS, Google).
 
@@ -99,6 +99,6 @@ Tuned PostgreSQL settings for high-concurrency inserts and updates.
 Used asynchronous commit and batch processing for faster bulk inserts.
 
 Outcome
-Successfully loaded 0.5TB of data into PostgreSQL.
+Successfully loaded 1TB of data into PostgreSQL.
 Achieved efficient querying and updates with optimized PostgreSQL configurations.
 Maintained the client’s security requirements by avoiding public cloud solutions.
